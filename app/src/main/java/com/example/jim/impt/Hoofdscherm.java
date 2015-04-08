@@ -17,6 +17,14 @@ import android.view.ViewGroup;
 public class Hoofdscherm extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_hoofdscherm);
+
+        //Recreates app when activity is destroyed.
+    }
+
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
