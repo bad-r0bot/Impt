@@ -29,7 +29,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView"
                 android:layout_gravity="center_horizontal"
-                android:src="@mipmap/logo_sleutelaar" />
+                android:src="@mipmap/logo_sleutelaar"
+                android:contentDescription="logo" />
         </LinearLayout>
 
         <LinearLayout
@@ -39,7 +40,7 @@
             android:layout_weight="0.14"
             android:id="@+id/">
 
-            <EditText
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Slot1"
