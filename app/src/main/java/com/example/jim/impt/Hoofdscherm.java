@@ -18,13 +18,6 @@ import java.util.ArrayList;
 public class Hoofdscherm extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
-    public static int serverPort = 9999;
-    public static String serverIP = 127.0.0.1;
-    public static ArrayList<String> SlotLijst;
-    public static String slotnaam;
-    public static String informatiebeknopt = null;
-    public static int selectie;
-
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
