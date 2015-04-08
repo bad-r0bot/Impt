@@ -18,9 +18,9 @@ public class HoofdschermFragment extends Fragment {
 
 
     // Variabelen die nodig zijn voor de app.
-    public static int serverPort = 9999;
+    public static int serverPort = 4444;
     public static String serverIP = "127.0.0.1";
-    public static ArrayList<String> SlotLijst;
+    public static ArrayList<String> Slotlist;
     public static String slotnaam;
     public static String informatiebeknopt = null;
     public static int selectie;
@@ -28,6 +28,14 @@ public class HoofdschermFragment extends Fragment {
 
     public void retrieveData() {
         // Haal data op uit de server.
-
+        Slotlist = new ArrayList<String>();
+        JSONObject jsonobject = new JSONObject();
+        try{
+            jsonobject.put("","");
+        }
+        catch(JSONException e){
+            e.printStackTrace();
+        }
+        String response = null;
     }
 }
