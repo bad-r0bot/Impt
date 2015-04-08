@@ -12,18 +12,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import java.util.ArrayList;
 
 
 public class Hoofdscherm extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState){
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hoofdscherm);
+    public static int serverPort = 9999;
+    public static String serverIP = 127.0.0.1;
+    public static ArrayList<String> SlotLijst;
+    public static String slotnaam;
+    public static String informatiebeknopt = null;
+    public static int selectie;
 
-        //Recreates app when activity is destroyed.
-    }
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
